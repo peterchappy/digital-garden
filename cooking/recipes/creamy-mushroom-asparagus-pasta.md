@@ -10,7 +10,7 @@ Servings 4
 
 ## Ingredients 
 
-  Pasta 
+Pasta 
   - 1 Tbsp olive oil  
   - 4 cloves garlic, minced   
   - 1 cup thinly sliced baby bella or crimini mushrooms  
@@ -18,7 +18,8 @@ Servings 4
   - Sea salt and black pepper to taste  
   - 10 ounces gluten-free penne*  
   
-  Sauce  
+
+Sauce  
   - 2 Tbsp olive oil 
   - 6 cloves garlic, minced ( divided )  
   - 8 ounces vegan cream cheese*  
@@ -48,7 +49,8 @@ Servings 4
 9) Best when fresh, though leftovers keep in the refrigerator up to 3 days. Reheat in the microwave or on the stovetop, adding a bit of almond milk if it’s dried out.     
  
 
-Nutrition (1 of  4  servings) 
+Nutrition (1 of 4 servings) 
+
   Serving: 1 serving
   Calories: 549    
   Carbohydrates: 64 g   
