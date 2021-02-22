@@ -1,5 +1,8 @@
 # Table of contents
 
-* [README](README.md)
-* [Docker](Docker/Docker.md)
+* [Introduction](README.md)
+
+## CI/CD
+
+* [Docker](ci-cd/docker.md)
 
