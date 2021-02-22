@@ -19,11 +19,13 @@ workflows:
           working_directory: frontend
           store_artifacts: true
           start: 'yarn dev:consumer'
+          wait-on: 'http://localhost:3000'
           record: true
           post-install:
             - run: 'npx lerna bootstrap'
             - run: 'yarn build:libraries'
-          command: npx cypress run --record
+            - run: 'yarn setup'
+          command: yarn cypress:consumer
 ```
 
 ***Arguments***
