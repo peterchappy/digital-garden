@@ -1,4 +1,4 @@
-#CircleCI
+# CircleCI
 
 ### Running Cypress on CircleCI
 
