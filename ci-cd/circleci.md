@@ -18,8 +18,12 @@ workflows:
           yarn: true
           working_directory: frontend
           store_artifacts: true
-          start: npm start
+          start: 'yarn dev:consumer'
           record: true
+          post-install:
+            - run: 'npx lerna bootstrap'
+            - run: 'yarn build:libraries'
+          command: npx cypress run --record
 ```
 
 ***Arguments***
