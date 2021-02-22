@@ -1,0 +1,6 @@
+#Regex
+
+### Remove all HTML
+```
+<[^>]*>
+```
