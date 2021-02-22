@@ -1,11 +1,9 @@
-# Creamy Mushroom and Asparagus Pasta (GF)
-
 Creamy mushroom and asparagus pasta that's entirely gluten-free and requires just 30 minutes to prepare! A hearty, quick, and flavorful plant-based meal. 
 
-Prep Time 10 minutes
-Cook Time 20 minutes
-Total Time 30 minutes
-Servings 4
+- Prep Time 10 minutes
+- Cook Time 20 minutes
+- Total Time 30 minutes
+- Servings 4
 
 
 ## Ingredients 
@@ -49,7 +47,7 @@ Sauce
 9) Best when fresh, though leftovers keep in the refrigerator up to 3 days. Reheat in the microwave or on the stovetop, adding a bit of almond milk if it’s dried out.     
  
 
-Nutrition (1 of 4 servings) 
+### Nutrition (1 of 4 servings) 
 
   Serving: 1 serving
   Calories: 549    
