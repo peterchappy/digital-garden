@@ -2,7 +2,7 @@
 
 - [Introduction](README.md)
 - Programming
-  - [Regex](programming/regex.md)
+  - [Regex](programming/regular-expressions.md)
   - CI/CD
     - [Docker](programming/ci-cd/docker.md)
     - [CircleCI](programming/ci-cd/circleci.md)

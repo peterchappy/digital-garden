@@ -1,4 +1,4 @@
-#Regex
+# Regex
 
 ### Remove all HTML
 ```
