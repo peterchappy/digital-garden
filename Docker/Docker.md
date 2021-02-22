@@ -1,4 +1,4 @@
-### Arg vs Env
+## Arg vs Env
 
 >ENV is mainly meant to provide default values for your future environment variables. Running dockerized applications can access environment variables. It’s a great way to pass configuration values to your project.
 
