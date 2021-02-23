@@ -24,4 +24,4 @@
 
 Links
 
-- [Brain facts](brainfacts.org)
+- [Brain facts](https://www.brainfacts.org/)
