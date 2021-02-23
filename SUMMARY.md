@@ -1,6 +1,14 @@
 # Summary
 
 - [Introduction](README.md)
+
+- Cooking
+  - Recipes
+    - [Creamy Mushroom and Asparagus Pasta](cooking/recipes/creamy-mushroom-asparagus-pasta.md)
+
+- Learning
+  - [Focused and Diffuse thinking](learning/focused-and-diffuse-thinking.md)
+
 - Programming
   - [Regex](programming/regular-expressions.md)
   - CI/CD
@@ -9,6 +17,3 @@
   - Testing
     - [Integration](programming/testing/integration.md)
 
-- Cooking
-  - Recipes
-    - [Creamy Mushroom and Asparagus Pasta](cooking/recipes/creamy-mushroom-asparagus-pasta.md)
