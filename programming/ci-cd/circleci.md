@@ -1,5 +1,11 @@
 # CircleCI
 
+Links
+
+- [Fastlane](https://fastlane.tools/)
+- [Building and Deploying Flutter Applications](https://circleci.com/blog/deploy-flutter-android/)
+- [CD with Flutter](https://flutter.dev/docs/deployment/cd)
+
 ### Monorepo Caching
 
 ```
@@ -63,6 +69,13 @@ workflows:
           command: yarn cypress
 ```
 
+to use Chrome
+
+```
+  executor: cypress/browsers-chrome69
+  browser: chrome
+```
+
 ***Arguments***
 
 `store_artifacts` - stores artifacts in CircleCI
@@ -76,5 +89,5 @@ workflows:
 Links
 
 - [Example](https://github.com/cypress-io/cypress-example-circleci-orb/blob/master/.circleci/config.yml)
-
+- [Executors](https://github.com/cypress-io/cypress-docker-images/tree/master/browsers)
 

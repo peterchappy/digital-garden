@@ -11,6 +11,7 @@
 
 - Programming
   - [Regex](programming/regular-expressions.md)
+  - [git](programming/git.md)
   - CI/CD
     - [Docker](programming/ci-cd/docker.md)
     - [CircleCI](programming/ci-cd/circleci.md)
