@@ -1,5 +1,38 @@
 # CircleCI
 
+### Monorepo Caching
+
+```
+commands:
+  create_concatenated_package_lock:
+    description: "Concatenate all package-lock.json files recognized by lerna.js into single file. File is used as checksum source for part of caching key."
+    parameters:
+      filename:
+        type: string
+    steps:
+      - run:
+          name: Combine package-lock.json files to single file
+          command: npx lerna la -a | awk -F packages '{printf "\"packages%s/package-lock.json\" ", $2}' | xargs cat > << parameters.filename >>
+
+```
+
+```
+    steps:
+      - checkout
+      - create_concatenated_package_lock:
+          filename: combined-package-lock.txt
+      ## Use combined-package-lock.text in cache key
+      - restore_cache:
+          keys:
+            - v3-deps-{{ checksum "package-lock.json" }}-{{ checksum "combined-package-lock.txt" }}
+            - v3-deps`
+```
+
+Links
+
+- [Concentrated `package-lock` checksum](https://circleci.com/docs/2.0/caching/#creating-and-building-a-concatenated-package-lock-file)
+
+
 ### Running Cypress on CircleCI
 
 [Cypress Orb](https://circleci.com/developer/orbs/orb/cypress-io/cypress)
@@ -17,15 +50,17 @@ workflows:
           executor: cypress/base-14
           yarn: true
           working_directory: frontend
+          cache-key: 'yarn-packages-{{ arch }}-{{ checksum "yarn.lock" }}'
           store_artifacts: true
-          start: 'yarn dev:consumer'
+          start: 'yarn dev'
           wait-on: 'http://localhost:3000'
           record: true
+          no-workspace: true
           post-install:
             - run: 'npx lerna bootstrap'
             - run: 'yarn build:libraries'
             - run: 'yarn setup'
-          command: yarn cypress:consumer
+          command: yarn cypress
 ```
 
 ***Arguments***
@@ -37,3 +72,9 @@ workflows:
 `record` - toggles record
 
 `working_directory` - sets a custom working directory 
+
+Links
+
+- [Example](https://github.com/cypress-io/cypress-example-circleci-orb/blob/master/.circleci/config.yml)
+
+
