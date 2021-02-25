@@ -3,15 +3,16 @@
 - [Introduction](README.md)
 
 - Cooking
-  - [Recipes](cooking/recipes/links.md)
+  - [Recipes](cooking/recipes/README.md)
     - [Creamy Mushroom and Asparagus Pasta](cooking/recipes/creamy-mushroom-asparagus-pasta.md)
 
 - Learning
   - [Focused and Diffuse thinking](learning/focused-and-diffuse-thinking.md)
   - [Procrastination Memory Sleep](learning/procrastination-memory-sleep.md)
 
-- Programming
-  - [Core Packages](programming/core-packages.md)
+- [Programming](programming/README.md)
+  - Architecture
+    - [Core Packages](programming/core-packages.md)
   - [Regex](programming/regular-expressions.md)
   - [Git](programming/git.md)
   - CI/CD
