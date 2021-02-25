@@ -8,6 +8,7 @@
 
 - Learning
   - [Focused and Diffuse thinking](learning/focused-and-diffuse-thinking.md)
+  - [Procrastination Memory Sleep](learning/procrastination-memory-sleep.md)
 
 - Programming
   - [Core Packages](programming/core-packages.md)
