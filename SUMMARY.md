@@ -1,23 +1,24 @@
-# Summary
-
-- [Introduction](README.md)
-
-- Cooking
-  - [Recipes](cooking/recipes/README.md)
-    - [Creamy Mushroom and Asparagus Pasta](cooking/recipes/creamy-mushroom-asparagus-pasta.md)
-
-- Learning
-  - [Focused and Diffuse thinking](learning/focused-and-diffuse-thinking.md)
-  - [Procrastination Memory Sleep](learning/procrastination-memory-sleep.md)
-
-- [Programming](programming/README.md)
-  - Architecture
-    - [Core Packages](programming/core-packages.md)
-  - [Regex](programming/regular-expressions.md)
-  - [Git](programming/git.md)
-  - CI/CD
-    - [Docker](programming/ci-cd/docker.md)
-    - [CircleCI](programming/ci-cd/circleci.md)
-  - Testing
-    - [Integration](programming/testing/integration.md)
-
+  - Cooking
+    - [Recipes](./cooking/recipes/README.md)
+      - [African Peanut Stew](./cooking/recipes/african-peanut-stew.md)
+      - [Creamy Mushroom Asparagus Pasta](./cooking/recipes/creamy-mushroom-asparagus-pasta.md)
+  - [Ideas](./ideas/README.md)
+    - Exploring
+      - [Medical Billing Transparency](./ideas/exploring/medical-billing-transparency.md)
+      - [Predictability](./ideas/exploring/predictability.md)
+      - [Remote Work](./ideas/exploring/remote-work.md)
+      - [Voting](./ideas/exploring/voting.md)
+  - [Introduction](./introduction.md)
+  - Learning
+    - [Focused And Diffuse Thinking](./learning/focused-and-diffuse-thinking.md)
+    - [Procrastination Memory Sleep](./learning/procrastination-memory-sleep.md)
+  - [Programming](./programming/README.md)
+    - Architecture
+      - [Core Packages](./programming/architecture/core-packages.md)
+    - Ci Cd
+      - [Circleci](./programming/ci-cd/circleci.md)
+      - [Docker](./programming/ci-cd/docker.md)
+    - [Git](./programming/git.md)
+    - [Regular Expressions](./programming/regular-expressions.md)
+    - Testing
+      - [Integration](./programming/testing/integration.md)

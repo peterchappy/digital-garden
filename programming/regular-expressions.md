@@ -1,6 +1,11 @@
 # Regex
 
-### Remove all HTML
+### All HTML
 ```
 <[^>]*>
+```
+
+### File Extension
+```
+/(.*)\.[^.]+$/
 ```
