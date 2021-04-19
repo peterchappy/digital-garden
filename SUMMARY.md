@@ -1,13 +1,9 @@
+  - Config
+    - [OSX](./config/OSX.md)
   - Cooking
     - [Recipes](./cooking/recipes/README.md)
       - [African Peanut Stew](./cooking/recipes/african-peanut-stew.md)
       - [Creamy Mushroom Asparagus Pasta](./cooking/recipes/creamy-mushroom-asparagus-pasta.md)
-  - [Ideas](./ideas/README.md)
-    - Exploring
-      - [Medical Billing Transparency](./ideas/exploring/medical-billing-transparency.md)
-      - [Predictability](./ideas/exploring/predictability.md)
-      - [Remote Work](./ideas/exploring/remote-work.md)
-      - [Voting](./ideas/exploring/voting.md)
   - [Introduction](./introduction.md)
   - Learning
     - [Focused And Diffuse Thinking](./learning/focused-and-diffuse-thinking.md)
@@ -15,12 +11,21 @@
   - [Programming](./programming/README.md)
     - Architecture
       - [Core Packages](./programming/architecture/core-packages.md)
+    - [Careers](./programming/careers.md)
     - Ci Cd
       - [Circleci](./programming/ci-cd/circleci.md)
       - [Docker](./programming/ci-cd/docker.md)
+      - [Fastlane](./programming/ci-cd/fastlane.md)
     - [Git](./programming/git.md)
+    - [Hubspot](./programming/hubspot.md)
+    - Mobile
+      - [Flutter](./programming/mobile/Flutter.md)
+      - [Ios](./programming/mobile/ios.md)
+    - Programming Languages
+      - [Dart](./programming/programming-languages/dart.md)
+      - [Typescript](./programming/programming-languages/typescript.md)
     - [Regular Expressions](./programming/regular-expressions.md)
     - Testing
       - [Integration](./programming/testing/integration.md)
-    - Web
+    - [Web](./programming/web/README.md)
       - [Pwa](./programming/web/pwa.md)
