@@ -4,7 +4,6 @@
     - [Recipes](./cooking/recipes/README.md)
       - [African Peanut Stew](./cooking/recipes/african-peanut-stew.md)
       - [Creamy Mushroom Asparagus Pasta](./cooking/recipes/creamy-mushroom-asparagus-pasta.md)
-  - [Introduction](./introduction.md)
   - Learning
     - [Focused And Diffuse Thinking](./learning/focused-and-diffuse-thinking.md)
     - [Procrastination Memory Sleep](./learning/procrastination-memory-sleep.md)
