@@ -1,4 +1,4 @@
-Notes on what a core/common package used across multiple projects inside a monorepo could look like.
+Notes on what a core/common package used across multiple projects inside a FE monorepo could look like.
 
 #### Core
 - lives in own package
