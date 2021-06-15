@@ -1,10 +1,11 @@
+  - Books
+    - [Snowcrash](./books/Snowcrash.md)
   - Config
     - [OSX](./config/OSX.md)
   - Cooking
     - [Recipes](./cooking/recipes/README.md)
       - [African Peanut Stew](./cooking/recipes/african-peanut-stew.md)
       - [Creamy Mushroom Asparagus Pasta](./cooking/recipes/creamy-mushroom-asparagus-pasta.md)
-  - [History](./history.md)
   - Learning
     - [Focused And Diffuse Thinking](./learning/focused-and-diffuse-thinking.md)
     - [Procrastination Memory Sleep](./learning/procrastination-memory-sleep.md)
@@ -19,6 +20,8 @@
       - [Fastlane](./programming/ci-cd/fastlane.md)
     - [Git](./programming/git.md)
     - [Hubspot](./programming/hubspot.md)
+    - Interviews
+      - [Senior Frontend React](./programming/interviews/senior-frontend-react.md)
     - Mobile
       - [Flutter](./programming/mobile/Flutter.md)
       - [Ios](./programming/mobile/ios.md)

@@ -1,5 +1,3 @@
-### Elixir
-
 Elixir is a fault tolerant FP language that is built ontop of the Erlang VM and uses Ruby style syntax
 
 ##### Elixir's Relationship with Erlang
@@ -57,6 +55,7 @@ color1 = ["red"]                            # color1 is a list
 
 #### Links
 
+- [Elixir - A modern approach to programming for the Erlang VM](https://vimeo.com/53221562)
 - [Building a Distributed Turn-Based Game System in Elixir](https://fly.io/blog/building-a-distributed-turn-based-game-system-in-elixir/)
 - [Good and Bad Elixir](https://keathley.io/blog/good-and-bad-elixir.html)
 - [DDD with Elixir](https://hackernoon.com/domain-driven-design-in-elixir-4dc416ac0a36)
