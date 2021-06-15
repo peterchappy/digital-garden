@@ -87,7 +87,7 @@ If they mention they are familiar with typescript try to work in these questions
 - Type guards on the common property.
 
 #### Links
-[What you should know about React Hooks, before using them.](https://nazrhan-mohcine.medium.com/react-hooks-why-what-and-pros-vs-cons-6d3fe18b8a0a)
-[Refs and the DOM](https://reactjs.org/docs/refs-and-the-dom.html)
-[front-end-interview-handbook](https://github.com/yangshun/front-end-interview-handbook/blob/master/contents/en/javascript-questions.md#what-is-a-closure-and-howwhy-would-you-use-one)
-[Generics](https://www.typescriptlang.org/docs/handbook/2/generics.html)
+- [What you should know about React Hooks, before using them.](https://nazrhan-mohcine.medium.com/react-hooks-why-what-and-pros-vs-cons-6d3fe18b8a0a)
+- [Refs and the DOM](https://reactjs.org/docs/refs-and-the-dom.html)
+- [front-end-interview-handbook](https://github.com/yangshun/front-end-interview-handbook/blob/master/contents/en/javascript-questions.md#what-is-a-closure-and-howwhy-would-you-use-one)
+- [Generics](https://www.typescriptlang.org/docs/handbook/2/generics.html)
