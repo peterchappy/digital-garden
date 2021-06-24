@@ -16,7 +16,7 @@ Certain standard library of Erlang are not implemented in Elixir and require Erl
 
 `for value <- values do` syntax acts as a map returning a new element
 
-```
+```ex
   for suit <- suits do
     suit
   end
@@ -25,7 +25,7 @@ Certain standard library of Erlang are not implemented in Elixir and require Erl
 You are able to do list comprehension over multiple lists and it 
 will act as a flat map
 
-```
+```ex
   for value <- values, suit <- suits do
     "#{value} of #{suit}"
   end
@@ -35,7 +35,7 @@ will act as a flat map
 
 Pattern matching is Elixir's replacement for variable assignment. 
 
-```
+```ex
   def deal(deck, hand_size) do
     # Returns a tuple of hand at position 0 and 
     # deck at position 1
@@ -45,7 +45,7 @@ Pattern matching is Elixir's replacement for variable assignment.
 
 Patern matching is used anytime `=` is used
 
-```
+```ex
 color1 = ["red"]                            # color1 is a list
 [ color1 ] = ["red"]                        # color1 is a string
 [color1, color2] = ["red", "blue"]          
@@ -53,6 +53,108 @@ color1 = ["red"]                            # color1 is a list
 
 ```
 
+Case Statements
+
+```ex
+  def load(file_name) do
+    { status, binary } = File.read(file_name)
+
+    case status do
+      :ok -> :erlang.binary_to_term(binary)
+      :error -> "file does not exist"
+    end
+  end
+  
+```
+
+Case statements can destructure the tuple like
+
+```ex
+  def load(file_name) do
+    case  File.read(file_name) do
+      {:ok, binary} -> :erlang.binary_to_term binary
+      {:error} -> "file does not exist"
+    end
+  end
+```
+
+##### Maps
+
+```
+colors = %{primary: "red"}
+colors = %{primary: "red", secondary: "blue"}
+%{secondary: secondary_color} = colors
+secondary_color
+"blue"
+```
+
+Updating properties in a map can be done two
+
+```
+Map.put(colors, :primary, "green")
+%{primary: "green", secondary: "blue"}
+```
+
+or
+
+```
+%{colors | primary: "green"}
+%{primary: "green", secondary: "blue"}
+```
+
+However the latter example can only be used to update a property. Adding a property will through an error.
+
+```%{colors | primary_2: "green"}
+** (KeyError) key :primary_2 not found in: %{primary: "red", secondary: "blue"}. Did you mean one of:
+
+      * :primary
+
+    (stdlib 3.15.1) :maps.update(:primary_2, "green", %{primary: "red", secondary: "blue"})
+    (stdlib 3.15.1) erl_eval.erl:256: anonymous fn/2 in :erl_eval.expr/5
+    (stdlib 3.15.1) lists.erl:1267: :lists.foldl/3
+```
+
+##### Keyword Lists
+
+```
+colors = [primary: "red", secondary: "blue"]
+colors = [primary: "red", primary: "blue:]
+
+# practical example
+
+query = Users.find_where([where: user.age > 10, where: user.subscribed == true])
+
+# this is the same as above since the last arguments is a Keyword List
+query = Users.find_where(where: user.age > 10, where: user.subscribed == true)
+
+# which is the same as 
+query = Users.find_where where: user.age > 10, where: user.subscribed == true
+```
+
+##### Testing
+
+DocTests are examples of code that will auto run as tests. NOTE: Indentation is key for this to work properly. 
+
+```
+  @doc """
+    Determines wether a deck contains a given card
+
+  ## Examples
+
+      iex> deck = Cards.create_deck
+      iex> Cards.contains?(deck, "Ace of Spades")
+      true
+  """
+  def contains?(deck, card) do
+    Enum.member?(deck,card)
+  end
+```
+
+
+
+#### Books
+
+- [Genetic Algorithms in Elixir](https://pragprog.com/titles/smgaelixir/genetic-algorithms-in-elixir/)
 #### Links
 
 - [Elixir - A modern approach to programming for the Erlang VM](https://vimeo.com/53221562)
@@ -65,3 +167,7 @@ color1 = ["red"]                            # color1 is a list
 - [10ish years of Elixir](https://dashbit.co/blog/ten-years-ish-of-elixir)
 - [Ask HN: Are you satisfied with Elixir or do you regret choosing Elixir?](https://news.ycombinator.com/item?id=27192873)
 - [Thinking Elixir Podcast](https://thinkingelixir.com)
+- [Axon: Deep Learning in Elixir](https://seanmoriarity.com/2021/04/08/axon-deep-learning-in-elixir/)
+- [Livebook](https://github.com/elixir-nx/livebook)
+- [Onboarding to Elixir](https://underjord.io/onboarding-to-elixir.html)
+- [New Elixir 1.12 - The developer’s point of view](https://bartoszgorka.com/elixir-1-12-released)
