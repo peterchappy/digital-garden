@@ -171,3 +171,7 @@ DocTests are examples of code that will auto run as tests. NOTE: Indentation is 
 - [Livebook](https://github.com/elixir-nx/livebook)
 - [Onboarding to Elixir](https://underjord.io/onboarding-to-elixir.html)
 - [New Elixir 1.12 - The developer’s point of view](https://bartoszgorka.com/elixir-1-12-released)
+- [How Phoenix LiveView works](https://www.poeticoding.com/how-phoenix-liveview-works/)
+- [Revisiting a Video Chat Application with Phoenix and WebRTC](https://hashrocket.com/blog/posts/revisiting-a-video-chat-application-with-phoenix-and-webrtc)
+- [An Elixir Adoption Success Story](https://www.thegreatcodeadventure.com/an-elixir-adoption-success-story/)
+- [Monitoring Elixir Apps on Fly.io With Prometheus and PromEx](https://fly.io/blog/monitoring-your-fly-io-apps-with-prometheus/)
