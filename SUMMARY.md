@@ -10,6 +10,7 @@
     - [Focused And Diffuse Thinking](./learning/focused-and-diffuse-thinking.md)
     - [Procrastination Memory Sleep](./learning/procrastination-memory-sleep.md)
   - [Mindfulness](./mindfulness.md)
+  - [Privacy](./privacy.md)
   - [Programming](./programming/README.md)
     - Architecture
       - [Core Packages](./programming/architecture/core-packages.md)
