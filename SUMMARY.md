@@ -1,4 +1,5 @@
   - Books
+    - [Lovecraft Country](./books/Lovecraft-Country.md)
     - [Snowcrash](./books/Snowcrash.md)
   - Config
     - [OSX](./config/OSX.md)
