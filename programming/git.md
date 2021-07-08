@@ -23,3 +23,4 @@ Links
 - [Git is my buddy: Effective Git as a solo developer](https://mikkel.ca/blog/git-is-my-buddy-effective-solo-developer/)
 - [Git Hooks Tutorial](https://www.digitalocean.com/community/tutorials/how-to-use-git-hooks-to-automate-development-and-deployment-tasks)
 - [Git from the bottom up](https://jwiegley.github.io/git-from-the-bottom-up/)
+- [Can a Git hook automatically add files to the commit?](https://stackoverflow.com/questions/3284292/can-a-git-hook-automatically-add-files-to-the-commit/12802592#12802592)
