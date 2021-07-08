@@ -18,7 +18,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn create-summary; git add SUMMARY.md"
+      "pre-commit": "create-summary"
     }
   }
 }
