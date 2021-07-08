@@ -1,9 +1,17 @@
 ### Config
 
+`git config --global user.name "FIRST_NAME LAST_NAME"` - Set Username
+
+`git config --global user.email "MY_NAME@example.com"` - Set email address
+
 `git config --global fetch.prune true` - To configure Git to execute prune for every fetch, execute the following command
 
 
 ### Useful Commands
+
+`git remote -v` - shows url of remote
+
+`git remote set-url origin {remote url}` - sets the remote url 
 
 `git reflog` - shows a log of all recent git actions. good for seeing what branch you were on, or looking for a specific commit to cherry-pick
 

@@ -5,3 +5,4 @@ Links
 - [conditional literal entitites](https://2ality.com/2017/04/conditional-literal-entries.html)
 - [Prisma ORM](https://www.prisma.io/blog/prisma-the-complete-orm-inw24qjeawmb)
 - [Temporal API](https://2ality.com/2021/06/temporal-api.html)
+- [Nested Ternaries are Great](https://medium.com/javascript-scene/nested-ternaries-are-great-361bddd0f340)
