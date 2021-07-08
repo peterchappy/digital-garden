@@ -1,1 +1,40 @@
-
+  - Books
+    - [Lovecraft Country](./books/Lovecraft-Country.md)
+    - [Snowcrash](./books/Snowcrash.md)
+  - Config
+    - [OSX](./config/OSX.md)
+  - Cooking
+    - [Recipes](./cooking/recipes/README.md)
+      - [African Peanut Stew](./cooking/recipes/african-peanut-stew.md)
+      - [Creamy Mushroom Asparagus Pasta](./cooking/recipes/creamy-mushroom-asparagus-pasta.md)
+  - Learning
+    - [Focused And Diffuse Thinking](./learning/focused-and-diffuse-thinking.md)
+    - [Procrastination Memory Sleep](./learning/procrastination-memory-sleep.md)
+  - [Mindfulness](./mindfulness.md)
+  - [Privacy](./privacy.md)
+  - [Programming](./programming/README.md)
+    - Architecture
+      - [Core Packages](./programming/architecture/core-packages.md)
+    - [Careers](./programming/careers.md)
+    - Ci Cd
+      - [Circleci](./programming/ci-cd/circleci.md)
+      - [Docker](./programming/ci-cd/docker.md)
+      - [Fastlane](./programming/ci-cd/fastlane.md)
+    - [Git](./programming/git.md)
+    - [Hubspot](./programming/hubspot.md)
+    - Interviews
+      - [Senior Frontend React](./programming/interviews/senior-frontend-react.md)
+    - Mobile
+      - [Flutter](./programming/mobile/Flutter.md)
+      - [Ios](./programming/mobile/ios.md)
+    - Programming Languages
+      - [Dart](./programming/programming-languages/dart.md)
+      - [Elixir](./programming/programming-languages/elixir.md)
+      - [Typescript](./programming/programming-languages/typescript.md)
+    - [Regular Expressions](./programming/regular-expressions.md)
+    - Testing
+      - [Integration](./programming/testing/integration.md)
+    - [Web](./programming/web/README.md)
+      - [Css](./programming/web/css.md)
+      - [Pwa](./programming/web/pwa.md)
+      - [React](./programming/web/react.md)
