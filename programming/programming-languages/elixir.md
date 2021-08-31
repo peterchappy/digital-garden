@@ -150,7 +150,18 @@ DocTests are examples of code that will auto run as tests. NOTE: Indentation is 
   end
 ```
 
+##### Structs
 
+Why use structs over a map? Structs enforce that only the properties of the struct exist. Normal maps will allow you to add any property you want.
+
+##### Tips
+
+How to install `egd`?
+
+Ass the following to your mix.exs
+```
+{:egd, github: "erlang/egd"}
+```
 
 #### Books
 
@@ -175,3 +186,4 @@ DocTests are examples of code that will auto run as tests. NOTE: Indentation is 
 - [Revisiting a Video Chat Application with Phoenix and WebRTC](https://hashrocket.com/blog/posts/revisiting-a-video-chat-application-with-phoenix-and-webrtc)
 - [An Elixir Adoption Success Story](https://www.thegreatcodeadventure.com/an-elixir-adoption-success-story/)
 - [Monitoring Elixir Apps on Fly.io With Prometheus and PromEx](https://fly.io/blog/monitoring-your-fly-io-apps-with-prometheus/)
+- [Lonestar ElixirConf 2017- KEYNOTE: Phoenix 1.3 by Chris McCord](https://www.youtube.com/watch?v=tMO28ar0lW8)

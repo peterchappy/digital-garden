@@ -3,6 +3,7 @@
     - [Snowcrash](./books/Snowcrash.md)
   - Config
     - [OSX](./config/OSX.md)
+    - [Alfred](./config/alfred.md)
   - Cooking
     - [Recipes](./cooking/recipes/README.md)
       - [African Peanut Stew](./cooking/recipes/african-peanut-stew.md)

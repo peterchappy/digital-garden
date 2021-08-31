@@ -76,6 +76,8 @@ Try to ask these question in the conversation above, but if you have time / need
 
 If they mention they are familiar with typescript try to work in these questions to determine there level of understanding of Typed Languages.
 
+theme get --password=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 --store="peterchapmantest.myshopify.com" --themeid=125302505631
+
 #### What is a generic?
 
 - generics give you the ability to create a component that can work over a variety of types rather than a single one. This allows users to consume these components and use their own types.
