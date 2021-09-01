@@ -4,6 +4,7 @@
   - Config
     - [OSX](./config/OSX.md)
     - [Alfred](./config/alfred.md)
+    - [Pihole](./config/pihole.md)
   - Cooking
     - [Recipes](./cooking/recipes/README.md)
       - [African Peanut Stew](./cooking/recipes/african-peanut-stew.md)
@@ -21,10 +22,12 @@
       - [Circleci](./programming/ci-cd/circleci.md)
       - [Docker](./programming/ci-cd/docker.md)
       - [Fastlane](./programming/ci-cd/fastlane.md)
+    - [Dns](./programming/dns.md)
     - [Git](./programming/git.md)
     - [Hubspot](./programming/hubspot.md)
     - Interviews
       - [Senior Frontend React](./programming/interviews/senior-frontend-react.md)
+    - [Jupyterhub](./programming/jupyterhub.md)
     - Mobile
       - [Flutter](./programming/mobile/Flutter.md)
       - [Ios](./programming/mobile/ios.md)
