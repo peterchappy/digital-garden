@@ -1,0 +1,1 @@
+All raspberry devices MAC addresses started with B8:27:EB (for RPi4 B they start with dc:a6:32, replace where appropriate). [src](https://raspberrypi.stackexchange.com/questions/13936/find-raspberry-pi-address-on-local-network)

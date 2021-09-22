@@ -5,6 +5,7 @@
     - [OSX](./config/OSX.md)
     - [Alfred](./config/alfred.md)
     - [Pihole](./config/pihole.md)
+    - [Rasberrypi](./config/rasberrypi.md)
   - Cooking
     - [Recipes](./cooking/recipes/README.md)
       - [African Peanut Stew](./cooking/recipes/african-peanut-stew.md)
@@ -36,6 +37,7 @@
       - [Elixir](./programming/programming-languages/elixir.md)
       - [Typescript](./programming/programming-languages/typescript.md)
     - [Regular Expressions](./programming/regular-expressions.md)
+    - [Shopify](./programming/shopify.md)
     - Testing
       - [Integration](./programming/testing/integration.md)
     - [Web](./programming/web/README.md)
