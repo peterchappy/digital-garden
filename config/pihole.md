@@ -8,5 +8,6 @@ As a previous reply noted, this typically makes your internet experience faster,
 
 [source](https://discourse.pi-hole.net/t/will-pi-hole-slow-down-my-speeds/16487)
 
-Links
+### Links
+
 - [Pi-Hole setup Guide](https://learn.adafruit.com/pi-hole-ad-blocker-with-pi-zero-w?view=all#install-pi-hole)
