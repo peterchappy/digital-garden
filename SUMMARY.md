@@ -38,9 +38,12 @@
       - [Typescript](./programming/programming-languages/typescript.md)
     - [Regular Expressions](./programming/regular-expressions.md)
     - [Shopify](./programming/shopify.md)
+    - Snippets
+      - [Dynamic Js Import](./programming/snippets/dynamic-js-import.md)
     - Testing
       - [Integration](./programming/testing/integration.md)
     - [Web](./programming/web/README.md)
+      - [Architecture](./programming/web/architecture.md)
       - [Css](./programming/web/css.md)
       - [Pwa](./programming/web/pwa.md)
       - [React](./programming/web/react.md)
