@@ -26,7 +26,7 @@
 
 `xargs git branch -d` : you are deleting every single branch listed before.
 
-Links
+### Links
 
 - [Git is my buddy: Effective Git as a solo developer](https://mikkel.ca/blog/git-is-my-buddy-effective-solo-developer/)
 - [Git Hooks Tutorial](https://www.digitalocean.com/community/tutorials/how-to-use-git-hooks-to-automate-development-and-deployment-tasks)

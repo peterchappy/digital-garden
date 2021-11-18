@@ -5,4 +5,5 @@ Shopify is a powerhouse for a reason. Their Zerg rush strategy to empower develo
 That being said I think their may be value to their headless expererience. Why re-invent the wheel if the business is primarily a e-commerce solution?
 
 ### Links
-[How to pass variables](https://medium.com/@chris.chimen/shopify-how-to-pass-variables-to-snippet-a2a9d6df03fc)
+- [How to pass variables](https://medium.com/@chris.chimen/shopify-how-to-pass-variables-to-snippet-a2a9d6df03fc)
+- [Embed React App inside of liquid engine](https://blog.theodo.com/2021/04/develop-on-shopify-in-2021/#embed-a-react-app-inside-liquids-engine)

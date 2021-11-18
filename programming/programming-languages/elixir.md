@@ -166,7 +166,7 @@ Ass the following to your mix.exs
 #### Books
 
 - [Genetic Algorithms in Elixir](https://pragprog.com/titles/smgaelixir/genetic-algorithms-in-elixir/)
-#### Links
+### Links
 
 - [Elixir - A modern approach to programming for the Erlang VM](https://vimeo.com/53221562)
 - [Building a Distributed Turn-Based Game System in Elixir](https://fly.io/blog/building-a-distributed-turn-based-game-system-in-elixir/)

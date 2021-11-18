@@ -22,6 +22,6 @@
 
 - Synapeses are less than a micron, for comparison a human hair is 20 microns
 
-Links
+### Links
 
 - [Brain facts](https://www.brainfacts.org/)

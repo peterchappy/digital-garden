@@ -6,7 +6,7 @@ This is my personal wiki where I transcribe and share all the knowledge I have. 
 
 > A blog without a publish button
 
-Some related links:
+### Links
 
 [How blogs broke the web](https://stackingthebricks.com/how-blogs-broke-the-web/)
 
